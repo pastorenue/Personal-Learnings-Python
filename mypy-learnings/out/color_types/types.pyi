@@ -1,0 +1,13 @@
+from _typeshed import Incomplete
+from typing import Protocol, TypeVar
+
+T = TypeVar("T")
+
+class Stack:
+    stack: Incomplete
+    def __init__(self) -> None: ...
+    def push(self, item: T) -> None: ...
+    @staticmethod
+    def pop(t: T) -> T: ...
+    @staticmethod
+    def peek(t: T) -> T: ...

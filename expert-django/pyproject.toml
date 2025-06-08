@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "expert-django"
+version = "0.1.0"
+description = "Just playing around with this django project"
+authors = ["Emmanuel Pastor <emmanuel.pastor@momox.biz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^4.0"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.7"
+django-cors-headers = "^4.2.0"
+django-extensions = "^3.2.3"
+strawberry-graphql = "^0.117.0"
+tqdm = "^4.66.1"
+django-encrypted-model-fields = "^0.6.5"
+snakeviz = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

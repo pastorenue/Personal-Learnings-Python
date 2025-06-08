@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mypy-learnings"
+version = "0.1.0"
+description = ""
+authors = ["Emmanuel Pastor <pastorenuel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.2.5"
+mypy = "^1.5.1"
+time_machine = "^2.8.2"
+fixit = "^2.1.0"
+libcst = "^1.5.0"
+scipy = "^1.11.2"
+snakeviz = "^2.2.0"
+tuna = "^0.5.0"
+torch = "^2.5.0"
+torchvision = "^0.20.0"
+torchaudio = "^2.5.0"
+trimesh = "^3.10.0"
+multipledispatch = "^1.0.0"
+flask = "^3.1.0"
+pymongo = "^4.11"
+logfire = "^3.5.3"
+pydantic = "^2.10.6"
+keyboard = "^0.13.5"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+pytest = "^8.3.4"
+
+[tool.mypy]
+ignore_missing_imports = false

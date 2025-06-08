@@ -1,0 +1,60 @@
+[
+  {
+    "event_id": "d7ccadde-890a-4afa-901c-9b502a830956",
+    "timestamp": "2025-05-07T16:19:38.512175",
+    "event_type": "ShipRegistered",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "name": "Pacific Explorer"
+    }
+  },
+  {
+    "event_id": "6e75547a-ddb8-430d-a63a-a885e2d05a73",
+    "timestamp": "2025-05-07T16:19:38.512319",
+    "event_type": "ShipDocked",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "port": "Singapore"
+    }
+  },
+  {
+    "event_id": "4ab312ba-5869-4897-820f-3f8649c0a2a7",
+    "timestamp": "2025-05-07T16:19:38.512336",
+    "event_type": "CargoLoaded",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "item": "electronics",
+      "quantity": 500,
+      "port": "Singapore"
+    }
+  },
+  {
+    "event_id": "a4aacce5-234f-4e56-9f85-49f73a839f68",
+    "timestamp": "2025-05-07T16:19:38.512347",
+    "event_type": "ShipDeparted",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "departed_from": "Singapore"
+    }
+  },
+  {
+    "event_id": "f161253b-ce18-44d7-b6d0-579523026ee2",
+    "timestamp": "2025-05-07T16:19:38.512355",
+    "event_type": "ShipDocked",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "port": "Hong Kong"
+    }
+  },
+  {
+    "event_id": "3b3bc8a8-2252-429b-8ea5-504966d1f83f",
+    "timestamp": "2025-05-07T16:19:38.512364",
+    "event_type": "CargoUnloaded",
+    "entity_id": "4ea11601-df83-486a-adb5-e2c58809dfd8",
+    "data": {
+      "item": "electronics",
+      "quantity": 200,
+      "port": "Hong Kong"
+    }
+  }
+]
